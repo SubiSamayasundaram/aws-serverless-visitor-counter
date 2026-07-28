@@ -60,7 +60,8 @@ DynamoDB
 
 ## Demo
 
-* **Live Demo:** (https://1f4a6f7zcf.execute-api.ap-south-1.amazonaws.com/count)
+- **Live Demo:** http://subi-cloud-demo.s3-website.ap-south-1.amazonaws.com
+- **API Endpoint:** https://1f4a6f7zcf.execute-api.ap-south-1.amazonaws.com
 
 ## License
 
