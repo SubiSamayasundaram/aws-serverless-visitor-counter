@@ -60,6 +60,7 @@ DynamoDB
 
 ## Demo
 
+- **Demo:** https://youtu.be/9t70NoBYfKI
 - **Live Demo:** http://subi-cloud-demo.s3-website.ap-south-1.amazonaws.com
 - **API Endpoint:** https://1f4a6f7zcf.execute-api.ap-south-1.amazonaws.com
 
