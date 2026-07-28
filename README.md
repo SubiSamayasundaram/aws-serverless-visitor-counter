@@ -60,8 +60,7 @@ DynamoDB
 
 ## Demo
 
-* **Live Demo:** Add your S3 website URL here
-* **API Endpoint:** Add your API Gateway endpoint here
+* **Live Demo:** (https://1f4a6f7zcf.execute-api.ap-south-1.amazonaws.com)
 
 ## License
 
