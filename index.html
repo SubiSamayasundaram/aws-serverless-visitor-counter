@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS Cloud Mini Project | Static Site on S3 + CloudFront</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>☁️ AWS Cloud Deployment — Static Site Demo</h1>
+    <p>Hosted on Amazon S3, delivered via CloudFront CDN</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Project Overview</h2>
+      <p>
+        This is a static web application deployed on <strong>Amazon S3</strong> for storage
+        and served securely through <strong>Amazon CloudFront</strong> for HTTPS delivery,
+        edge caching, and global performance.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Live Server Time</h2>
+      <p id="clock">--:--:--</p>
+      <p class="note">(Rendered client-side via JavaScript — proves the page is interactive, not just a static file dump)</p>
+    </section>
+
+    <section class="card">
+      <h2>Architecture</h2>
+      <pre>
+User Browser
+     |
+     v
+Amazon CloudFront (HTTPS, CDN cache)
+     |
+     v
+Amazon S3 Bucket (Origin, private via OAC)
+      </pre>
+    </section>
+
+    <section class="card">
+      <h2>Try It</h2>
+      <input type="text" id="nameInput" placeholder="Enter your name">
+      <button onclick="greet()">Greet Me</button>
+      <p id="greetOutput"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Deployed as part of hands-on AWS cloud computing practice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
